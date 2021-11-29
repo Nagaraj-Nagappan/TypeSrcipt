@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Ticket</title>
+    <link rel="stylesheet" href="Style/style.css">
+    <script src="Script/script.js"></script>
+</head>
+<body>
+<div id="maindiv">
+    <button onclick="NewUser()" id="newuser">New User</button>
+    <button onclick="UserLogin()" id="login1">Login</button>
+</div>
+<br><br>
+  <div id="newUser">
+      <label >Name  </label><br><input id="name" type="text" placeholder=" Enter your Name"><br>
+      <label >Age   </label><br><input id="age1" type="number" placeholder="Enter your age"><br>
+      <label >Pnone </label><br><input id="number1"  type="number1" placeholder="Contact number"><br>
+      <button id="add" onclick="AddUser()">Add</button>
+  </div>
+  <br><br>
+  <div id="login">
+      <label >User Id </label><br><input id="logindetail" type="text" placeholder="Enter the UserId">
+      <button onclick="ValidateUser()">Login</button>
+  </div>
+<br><br>
+  <div id="optionDiv">
+    <button onclick="BookTicket()" id="booking">Book Ticket</button>
+    <button onclick="ShowHistory()" id="history">Show History</button>
+  </div>
+  <br><br><br>
+  <div id="newLogin">
+      <label>MovieName</label><br><select name="movies" id="movieList">
+          <option value="3">3</option>
+          <option value="KGF">KGF</option>
+          <option value="The Bad">The Bad</option>
+      </select><br>
+      <label >Amount :</label><label >Rs.150</label> <br>
+      <button onclick="ConfirmTicket()">Book Ticket</button>
+  </div>
+  <br>
+  <br>
+  <div id="historyDiv">
+      <label >Ticket No :</label><label id="ticketNo"></label><br>
+      <label >Movie Name :</label><label id="name"></label><br>
+      <label >SeatCount :</label><label id="seat"></label><br>
+
+  </div>
+    
+</body>
+</html>

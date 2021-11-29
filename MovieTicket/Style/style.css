@@ -1,0 +1,27 @@
+body{
+    position: relative;
+    left: 10%;
+    top: 90px;
+}
+button{
+    color: aliceblue;
+    background-color: darkslategrey;
+}
+#maindiv{
+    display: block;
+}
+#optionDiv{
+    display: none;
+}
+#newLogin{
+    display: none;
+}
+#historyDiv{
+    display: none;
+}
+#login{
+    display: none;
+}
+#newUser{
+    display: none;
+}
